@@ -29,7 +29,20 @@ body{
 }
 
 .grid div{
-    background-color:black;
+    background-color:rgb(238, 202, 202);
     padding: 20px; 
     border-radius: 40px; 
+}
+
+@media (max-width: 7680x){
+    .hero h1{font-size: 40px;}
+    body{background-color:rgb(233, 210, 238)} 
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+}
+.hero img {
+    border-radius: 50%;
 }
